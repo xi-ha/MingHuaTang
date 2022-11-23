@@ -1,0 +1,28 @@
+html,body{
+  width: 1518px;
+}
+html,body,div,h5,p,ul,li{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li{
+  list-style: none;
+}
+.wide{
+  width: 1200px;
+  margin: 0 auto;
+}
+.el-menu--popup,.el-menu-item{
+    background-color: transparent !important;
+}
+.el-menu--horizontal {
+  position: absolute;
+  top: 5px!important;
+  left: 8px!important;
+}
+.el-menu--horizontal ul {
+  position: absolute;
+  top: 130px!important;
+  left: 106px!important;
+ }
